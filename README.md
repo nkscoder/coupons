@@ -9,7 +9,7 @@ Coupons project for 'Coupons' functionality is built in Python (Django)
 * pytz = 2017.2
 ### Configuration Instructions
 * **Step 1:** Clone the Git Repository
-  `git clone https://<USER_NAME>@bitbucket.org/scaledesk/coupons.git`
+  `git clone https://github.com/nkscoder/coupons.git`
 * **Step 2:** CD into that directory
 
 * **Step 3:** Run Migrations
