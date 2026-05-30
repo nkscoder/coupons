@@ -1,0 +1,71 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coupons"
+version = "1.1.0"
+description = "Django coupon and discount code system with validation rules — by Nitesh Kumar Singh (nkscoder)"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+    { name = "Nitesh Kumar Singh", email = "nkscoder@gmail.com" },
+]
+maintainers = [
+    { name = "Nitesh Kumar Singh", email = "nkscoder@gmail.com" },
+]
+keywords = [
+    "django",
+    "coupons",
+    "coupon",
+    "discount",
+    "promo-code",
+    "promotional-code",
+    "ecommerce",
+    "nkscoder",
+    "nitesh-kumar-singh",
+    "python",
+    "django-coupons",
+    "coupon-validation",
+    "discount-code",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Web Environment",
+    "Framework :: Django",
+    "Framework :: Django :: 3.2",
+    "Framework :: Django :: 4.0",
+    "Framework :: Django :: 4.1",
+    "Framework :: Django :: 4.2",
+    "Framework :: Django :: 5.0",
+    "Framework :: Django :: 5.1",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "Django>=3.2",
+]
+
+[project.urls]
+Homepage = "https://github.com/nkscoder/coupons"
+Documentation = "https://github.com/nkscoder/coupons#readme"
+Repository = "https://github.com/nkscoder/coupons"
+"Bug Tracker" = "https://github.com/nkscoder/coupons/issues"
+"Author GitHub" = "https://github.com/nkscoder"
+
+[tool.setuptools.packages.find]
+include = ["coupons*"]
+
+[tool.setuptools.package-data]
+coupons = ["migrations/*.py"]
