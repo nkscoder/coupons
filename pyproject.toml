@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "coupons"
-version = "1.1.0"
+version = "1.1.1"
 description = "Django coupon and discount code system with validation rules — by Nitesh Kumar Singh (nkscoder)"
 readme = "README.md"
 license = "MIT"
@@ -62,7 +62,10 @@ Homepage = "https://github.com/nkscoder/coupons"
 Documentation = "https://github.com/nkscoder/coupons#readme"
 Repository = "https://github.com/nkscoder/coupons"
 "Bug Tracker" = "https://github.com/nkscoder/coupons/issues"
+"PyPI Profile" = "https://pypi.org/user/nkscoder/"
 "Author GitHub" = "https://github.com/nkscoder"
+"Author Website" = "https://nkscoder.in"
+"LinkedIn" = "https://www.linkedin.com/in/nitesh-kumar-singh-897437a2/"
 
 [tool.setuptools.packages.find]
 include = ["coupons*"]
